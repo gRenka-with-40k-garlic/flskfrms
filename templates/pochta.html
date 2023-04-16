@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flask-form</title>
+</head>
+<body>
+    <h1>nu tipa </h1>
+    <div class="form">
+        <form action="/" method="POST">
+            {{ form.name.label }}
+            {{ form.name }}
+            {{ form.mail.label }}
+            {{ form.mail }}
+            {{ form.password.label }}
+            {{ form.password }}
+            {{ form.submit }}
+        </form>
+    </div>
+</body>
+</html>
